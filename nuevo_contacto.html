@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/hoja-estilos-principal.css">
+    <title>Document</title>
+</head>
+
+<body class="imagen3" >
+    <!-- Topbar Start -->
+    <div class="container-fluid d-none d-lg-block">
+        <div class="row align-items-center py-4 px-xl-5">
+            <div class="col-lg-3">
+                <a href="" class="text-decoration-none">
+                    <h1 class="m-0"><span class="text-primary">*</span>Detalles del contacto:</h1>
+                </a>
+            </div>
+           
+
+            <fieldset>
+                <legend>********** </legend>
+                <label for="nombre">Nombre:</label>
+                <input type="text" class="text" autofocus placeholder="Escribe tu nombre" name="nombre" required
+                    pattern="[a-zA-Z\s]{5,}" />
+
+                <span class="invalid">* El nombre es requerido</span>
+                <label for="email">Email:</label>
+                <input type="email" name="email" required placeholder="Escriba su emalil" class="text">
+
+                <span class="invalid">*El email es requerido</span>
+                <label for="telefono">Teléfono</label>
+                <input type="tel" name="telefono" required placeholder="Escribe tu telefono">
+                <span class="invalid">* El teléfono es requerido</span>
+                <label for="pais">País:</label>
+                <input list="paises" name="pais" placeholder="Escribe/selecciona tu pais" />
+                <datalist id="paises">
+                    <option>MÉXICO</option>
+                    <option>Colombia</option>
+                    <option>Francia</option>
+                    <option>Guatemala</option>
+
+                </datalist>
+                <label for="edad">Edad</label>
+                <input type="number" name="edad" min="18" max="65" />
+                <label for="nacimiento">Fecha Nacimiento</label>
+                <input type="date" name="nacimiento" min="1990-01-01" max="3000-12-31" />
+                <a href="./contactos.html">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <li>
+                    enviar </li>
+                      
+                  </a>
+            </fieldset>
+
+
+
+            
+           
+        </div>
+    </div>
+</body>
+
+</html>

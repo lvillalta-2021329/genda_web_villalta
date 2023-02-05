@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login y Registro - MagtimusPro</title>
+    <link rel="stylesheet" href="assets/css/hoja-estilos-principal.css">
+    <link rel="stylesheet" href="assets/js/estilo.js">
+</head>
+
+
+
+
+
+<body ng-app="miAgenda" class="imagen2">
+
+    <form name="formContactos">
+        <h1>Agenda de Contactos</h1>
+
+        <div flex id="div1">
+            <label for="nombres">Nombres</label>
+            <p></p>
+            <input type="text" ng-model="nombres" required />
+            <p></p>
+            <label for="apellidos">Apellidos</label>
+            <p></p>
+            <input type="text" ng-model="apellidos" required />
+            <p></p>
+            <label for="telefono">Teléfono</label>
+            <p></p>
+            <input type="text" ng-model="telefono" required />
+            <p></p>
+            <label for="email">Email</label>
+            <p></p>
+            <input type="text" ng-model="email" required />
+            <p></p>
+
+            <p></p>
+            <button ng-click="AgregarContacto($event)">Agregar</button>
+            <button ng-click="LimpiarCampos($event)">Limpiar</button>
+
+
+
+
+        </div>
+
+
+
+        <div class="container">
+            <h1>TUS CONTACTOS </h1>
+
+
+            <div class="login-box2">
+                <a href="./nuevo_contacto.html">
+
+                    <li>
+                        Osiel Garcia 87456128 garcia45@gmail.com </li>
+
+                </a>
+            </div>
+            <br>
+            <br>
+
+
+            <div class="login-box3">
+                <a href="./nuevo_contacto2.html">
+
+                    <li>
+                        Samuel Vasquez 87456123 samuelvl@gmail.com </li>
+
+                </a>
+            </div>
+            <br>
+            <br>
+
+            <div class="login-box4">
+                <a href="./nuevo_contacto3.html">
+
+                    <li>
+                        Jakelin Pérez 85214796 Jakelin985@gmail.com </li>
+
+                </a>
+            </div>
+            <br>
+            <br>
+
+
+
+            <div class="login-box5">
+                <a href="./nuevo_contacto4.html">
+
+                    <li>
+                        Dayana Contreras 85214787 dayanacon85@gmail.com </li>
+
+                </a>
+            </div>
+            <br>
+            <br>
+
+
+            <div class="login-box6">
+                <a href="./nuevo_contacto5.html">
+
+                    <li>
+                        Pablo Pastor 85214584 Pablo456@gmail.com</li>
+
+                </a>
+            </div>
+
+
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+        <div class="login-box1">
+            <a href="./nuevo_contacto_campos.html">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <li>
+                    Nuevo contacto:</li>
+
+            </a>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+
+
+        <div class="login-box1">
+            <a href="./favoritos.html">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <li>
+                    favoritos:</li>
+
+            </a>
+        </div>
+
+        <br>
+        <br>
+        <br>
+        <br>
+
+
+        <div class="login-box1">
+            <a href="./perfil_del_usuario.html">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <li>
+                    Perfil:</li>
+
+            </a>
+        </div>
+        </div>
+        <br>
+        <br>
+        <br>
+        <br>
+
+
+        <div class="login-box1">
+            <a href="./todo_list.html">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+                <li>
+                    Todo List:</li>
+
+            </a>
+        </div>
+        </div>
+
+    </form>
+
+    <!-- Angular Material Dependencies -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular-aria.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angular_material/1.0.0-rc1/angular-material.min.js"></script>
+    <script src="https://rawgit.com/angular/bower-angular-sanitize/master/angular-sanitize.min.js"></script>
+</body>
+
+</html>
